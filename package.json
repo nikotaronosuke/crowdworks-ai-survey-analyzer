@@ -1,0 +1,27 @@
+{
+  "name": "crowdworks-ai-survey-analyzer",
+  "private": true,
+  "version": "1.0.0",
+  "description": "CrowdWorks 生成AI仕事アンケートの集計・可視化を完全ローカルで行うブラウザアプリ",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "build": "tsc --noEmit && vite build && node scripts/inline-build.mjs",
+    "build:only": "vite build",
+    "preview": "vite preview",
+    "sample": "node scripts/generate-sample.mjs"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.7",
+    "papaparse": "^5.4.1"
+  },
+  "devDependencies": {
+    "@types/papaparse": "^5.3.15",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.5",
+    "vitest": "^4.1.11"
+  }
+}

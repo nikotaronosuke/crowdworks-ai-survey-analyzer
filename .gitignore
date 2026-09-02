@@ -1,0 +1,14 @@
+node_modules/
+dist/
+dist-standalone/
+*.local
+.DS_Store
+.vite/
+coverage/
+
+# 実アンケート回答など、公開してはいけないデータの置き場
+# （sample/ の合成データは追跡対象のまま残す）
+*.private.csv
+*.private.tsv
+private/
+real-data/
