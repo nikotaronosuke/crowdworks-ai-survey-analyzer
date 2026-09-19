@@ -1,5 +1,7 @@
 # Owner Decision Log
 
+日本語 | [English](OWNER_DECISIONS.en.md)
+
 CrowdWorks Survey Analyzer は、アンケートCSVをきれいに見せるためのダッシュボードではありません。
 
 実データを扱う以上、**元回答を勝手に書き換えないこと、分母や除外条件を曖昧にしないこと、分析から言えないことまで言い切らないこと**を重視して作っています。
