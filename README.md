@@ -11,6 +11,20 @@ CrowdWorks で実施した「生成AIを使って実際に行った仕事」ア�
 > **なぜこの設計にしたか:** [Owner Decision Log](docs/OWNER_DECISIONS.md)  
 > 99件と92人を分けた理由、除外回答を消さない方針、自由記述を無理に数値化しない判断、平均時給や因果関係を言いすぎなかった理由などをまとめています。
 
+```mermaid
+flowchart LR
+    A["CrowdWorks CSV / TSV"] --> B["Browser memory only"]
+    B --> C["CrowdWorks adapter<br/>321 columns → 1 question / column"]
+    C --> D["Aggregate / Cross-tab"]
+    D --> E["Charts + numeric tables"]
+    D --> F["CSV / JSON / Markdown / PNG"]
+
+    B -. "no upload" .-> P["No network<br/>No localStorage<br/>No analytics"]
+    P -.-> B
+```
+
+**回答データはブラウザのメモリ内だけで処理し、外部送信・永続保存をしません。**
+
 ---
 
 ## 主な機能
