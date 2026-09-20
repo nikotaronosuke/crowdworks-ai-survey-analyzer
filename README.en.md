@@ -7,6 +7,8 @@ A **fully local browser app** for aggregating, visualizing, cross-tabulating, an
 The original use case was a survey conducted on **CrowdWorks**, a Japanese crowdsourcing platform,
 about real paid work performed with generative AI.
 
+The resulting analysis is published in [生成AIで仕事はどう変わる？クラウドソーシングの仕事99件を調査](https://poimono.jp/articles/generative-ai-work-survey/) *(Japanese)*.
+
 The app also accepts ordinary CSV / TSV input.
 
 - no external AI API

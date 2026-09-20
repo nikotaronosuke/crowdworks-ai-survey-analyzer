@@ -18,7 +18,7 @@
 
 日付やAI名を「たぶんこうだろう」と補正せず、記事の分析対象から除外しました。一方、ツール側では除外と削除を分け、監査用の `responses.csv` には全行を残して `included=true/false` を出力します。
 
-**Evidence:** [公開記事](https://poimono.jp/articles/generative-ai-work-survey/) / [responses.csv contract](SPEC.md#srcexportcsv)
+**Evidence:** [公開記事](https://poimono.jp/articles/generative-ai-work-survey/) / [responses.csv contract](SPEC.md#srcexportcsvts)
 
 ## 3. 自動パーサーは曖昧な作業時間を推測しない
 

@@ -18,7 +18,7 @@ One of the original 100 records could not make the reported job timing and AI-pr
 
 The date or product name was not rewritten into a plausible answer. The record was excluded from the article analysis. In the tool, exclusion is separate from deletion: the audit-oriented `responses.csv` keeps all rows and exports `included=true/false`.
 
-**Evidence:** [published article](https://poimono.jp/articles/generative-ai-work-survey/) / [responses.csv contract](SPEC.md#srcexportcsv)
+**Evidence:** [published article](https://poimono.jp/articles/generative-ai-work-survey/) / [responses.csv contract](SPEC.md#srcexportcsvts)
 
 ## 3. Do not let the automatic work-time parser guess ambiguous values
 
