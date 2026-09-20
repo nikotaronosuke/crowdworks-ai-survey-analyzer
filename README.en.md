@@ -15,9 +15,6 @@ The app also accepts ordinary CSV / TSV input.
 - no `localStorage`, `sessionStorage`, IndexedDB, or cookies
 - loaded survey data lives in browser memory and disappears when the page is closed
 
-> **Why is it designed this way?** Read the [Owner Decision Log](docs/OWNER_DECISIONS.en.md).  
-> It explains why 99 job records were distinguished from 92 respondents, why excluded responses remain auditable, why ambiguous free text is not forced into numbers, and why the published analysis avoided unstable headline metrics and causal claims.
-
 ```mermaid
 flowchart LR
     A["CrowdWorks CSV / TSV"] --> B["Browser memory only"]
@@ -369,19 +366,15 @@ It deliberately does **not**:
 - expose worker identity in AI-facing summary exports
 - hide denominators behind percentages
 
-For the reasoning behind those choices, see:
+For the evidence behind those choices, see:
 
-- [Owner Decision Log](docs/OWNER_DECISIONS.en.md)
-- [Original Japanese Owner Decision Log](docs/OWNER_DECISIONS.md)
+- [Design decisions](docs/design-decisions.en.md) — retrospective summary tied to the public article and specification
 - [Implementation specification](docs/SPEC.md) *(Japanese)*
 - [Published survey article](https://poimono.jp/articles/generative-ai-work-survey/) *(Japanese)*
 
 ## AI-assisted development
 
 The implementation was developed with AI-assisted coding and analysis.
-
-Dataset scope, exclusion rules, privacy boundaries, parsing policy, statistical wording,
-and final editorial decisions are owned by the project owner.
 
 ## License
 
