@@ -7,6 +7,10 @@ CrowdWorks で実施した「生成AIを使って実際に行った仕事」ア�
 
 このツールで集計した結果は、[「生成AIで仕事はどう変わる？クラウドソーシングの仕事99件を調査」](https://poimono.jp/articles/generative-ai-work-survey/)で公開しています。
 
+![読み込み結果・回答一覧・基本集計の画面。合成サンプルデータ100件を読み込んだ状態](docs/images/app-screenshot.png)
+
+*`sample/sample-survey.csv`（合成データ100件）を読み込んだ実際の画面です。列の種別を自動判定し、回答一覧と設問ごとの集計表を出しています。*
+
 - 外部AI API を使いません
 - 回答データを外部サーバーへ送信しません
 - analytics / telemetry を入れていません

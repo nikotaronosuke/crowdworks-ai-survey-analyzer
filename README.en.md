@@ -11,6 +11,10 @@ The resulting analysis is published in [生成AIで仕事はどう変わる？�
 
 The app also accepts ordinary CSV / TSV input.
 
+![Load result, response list and per-question aggregation, with 100 rows of synthetic sample data loaded](docs/images/app-screenshot.png)
+
+*The actual app with `sample/sample-survey.csv` (100 synthetic rows) loaded. Column types are detected automatically, and each question gets a response list and an aggregation table.*
+
 - no external AI API
 - no upload to an external server
 - no analytics / telemetry
